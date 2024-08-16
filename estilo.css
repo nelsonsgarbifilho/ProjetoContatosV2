@@ -1,0 +1,73 @@
+body {
+    height: 100%;
+    background-color: rgb(56, 56, 56);
+    margin: 0;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-title {
+    color: #ffffff;
+    font-size: 80px;
+    margin: 0;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 22px;
+    list-style-type: none;
+    width: 90%;
+    max-width: 50%;
+    padding: 0;
+}
+
+.list-item {
+    flex-basis: 280px;
+    background-color: rgb(66, 66, 66);
+    border: 2px solid white;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    background-image: url(imagens/thumb02.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.list-item:hover {
+    background-color: rgb(85, 84, 84);
+}
+
+.list-item__image img {
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 110px;
+    border: 2px solid white;
+}
+
+.list-item__name {
+    margin: 5px 0 0;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.list-item__email {
+    margin: 15px 0;
+    color: #aaa;
+}
+
+.list-item__action {
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    background-color: rgb(102, 102, 102);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
